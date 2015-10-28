@@ -65,7 +65,7 @@ proxy.route({
 
 if (process.env.DEBUG) {
   var testport = port + 1
-  var test = server.connection({ port: testport, labels: ['test'] })
+  var test = server.connection({ port: testport, labels: ['test'], host: host })
 
   server.register(require('vision'), function (error) {
     if (error) {
