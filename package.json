@@ -1,6 +1,5 @@
 {
   "name": "corsproxy",
-  "version": "0.0.2",
   "description": "standalone CORS proxy",
   "main": "./index.js",
   "author": {
